@@ -1,0 +1,36 @@
+/*
+ This is a calculator 
+ */
+import java.util.Scanner;
+
+public class Test 
+{
+	//variable declaration
+	static int chosing_number;
+	
+	
+	static Scanner take = new Scanner(System.in);
+	
+	
+	public static void main()
+	{
+		begining_function(chosing_number);
+		
+	}
+
+	static int begining_function(int number)
+	{
+		System.out.println("Aby uruchomiæ kalkulator nale¿y podaæ dwie liczby tak aby wynik by³ równy 69. \nRównanie musisz sam odgadn¹æ");
+		System.out.println("Podaj liczbê");
+		number = take.nextInt();		
+		return number;
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}
