@@ -1,33 +1,29 @@
 /*
  This is a calculator 
  */
-import java.util.Scanner;
+import java.util.Scanner;			
 
-public class Test 
+public class Test 			
 {
-	//variable declaration
-	static int chosing_number;
-	
-	
-	static Scanner take = new Scanner(System.in);
-	
-	
-	public static void main(String[] args)
+		
+	static Scanner take = new Scanner(System.in);		
+		
+	public static void main(String[] args)				
 	{
-		begining_function();
-		calculator_function();
+		begining_function();							
+		calculator_function();							
 	}
 
-
-	public static void begining_function()
+	public static void begining_function()				
 	{
-		int number;
-		int number1 = 0;
-		int number2 = 0;
-		int secondary_variable = 0;
-		int chance = 3;
-		int count_if_iteration = 0;
-		int i;
+		//Variable declaration
+		int number;										
+		int number1 = 0;								
+		int number2 = 0;								
+		int secondary_variable = 0;						
+		int chance = 3;									
+		int count_if_iteration = 0;						
+		int i;											
 			
 		System.out.println("Aby uruchomiæ kalkulator nale¿y podaæ dwie liczby tak aby wynik by³ równy 69. \nRównanie musisz sam odgadn¹æ\n");		
 		
