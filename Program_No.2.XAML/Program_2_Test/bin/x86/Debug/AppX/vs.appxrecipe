@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1d6c8a09-a751-4173-a08f-b0fe247c7a5e</PackageIdentityName>
     <PackageIdentityPublisher>CN=dante</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Programy\Program_2_Test\Program_2_Test\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Programy\Program_2_Test\Program_2_Test\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>4DC300F650DC2EBEA5542A899C963AE146061529B361362072F99C4063D6449A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1d6c8a09-a751-4173-a08f-b0fe247c7a5e_1.0.0.0_x86__db1qwgj52gmn6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1d6c8a09-a751-4173-a08f-b0fe247c7a5e_db1qwgj52gmn6!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Programy\Program_2_Test\Program_2_Test\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-14T21:04:13.634</Modified>
+      <Modified>2018-03-21T11:13:43.203</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\bin\x86\Debug\Program_2_Test.exe">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\bin\x86\Debug\Program_2_Test.exe">
       <PackagePath>entrypoint\Program_2_Test.exe</PackagePath>
-      <Modified>2018-03-14T21:04:11.673</Modified>
+      <Modified>2018-03-21T11:13:41.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,45 +495,45 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-14T19:07:16.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-10T04:44:04.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\bin\x86\Debug\Program_2_Test.xr.xml">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\bin\x86\Debug\Program_2_Test.xr.xml">
       <PackagePath>Program_2_Test.xr.xml</PackagePath>
       <Modified>2018-03-14T21:04:11.439</Modified>
     </AppxPackagedFile>
@@ -541,14 +541,14 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T16:28:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-14T21:04:13.128</Modified>
+      <Modified>2018-03-21T11:13:42.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Programy\Program_2_Test\Program_2_Test\bin\x86\Debug\Core\Program_2_Test.exe">
+    <AppxPackagedFile Include="D:\My Apps\C#\Program_No.2.XAML\Program_2_Test\bin\x86\Debug\Core\Program_2_Test.exe">
       <PackagePath>Program_2_Test.exe</PackagePath>
-      <Modified>2018-03-14T21:04:13.623</Modified>
+      <Modified>2018-03-21T11:13:43.200</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -25576,11 +25576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programy\\Program_2_Test\\Program_2_Test\\Program_2_Test.csproj",
+      "projectUniqueName": "D:\\My Apps\\C#\\Program_No.2.XAML\\Program_2_Test\\Program_2_Test.csproj",
       "projectName": "Program_2_Test",
-      "projectPath": "D:\\Programy\\Program_2_Test\\Program_2_Test\\Program_2_Test.csproj",
+      "projectPath": "D:\\My Apps\\C#\\Program_No.2.XAML\\Program_2_Test\\Program_2_Test.csproj",
       "packagesPath": "C:\\Users\\dante\\.nuget\\packages\\",
-      "outputPath": "D:\\Programy\\Program_2_Test\\Program_2_Test\\obj\\",
+      "outputPath": "D:\\My Apps\\C#\\Program_No.2.XAML\\Program_2_Test\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
