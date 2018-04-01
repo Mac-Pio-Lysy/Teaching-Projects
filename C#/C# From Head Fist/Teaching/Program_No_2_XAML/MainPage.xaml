@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Program_No_2_XAML.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Program_No_2_XAML"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,10,10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="ShowStatement_Button" Content="Pokaż komunikat" HorizontalAlignment="Center" VerticalAlignment="Center" Click="ShowStatement_Button_Click"/>
+        <Button x:Name="IfOrElse_Button" Content="If/Else" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="1" Click="IfOrElse_Button_Click"/>
+        <Button x:Name="CheckingNextCondition_Button" Content="Sprawdzanie kolejnego warunku" HorizontalAlignment="Center" Grid.RowSpan="3" VerticalAlignment="Center" Click="CheckingNextCondition_Button_Click"/>
+        <Button x:Name="Lopp_Button" Content="Pętle" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" Click="Lopp_Button_Click"/>
+        <TextBlock x:Name="MyLabel" HorizontalAlignment="Center" Grid.RowSpan="2" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2" Grid.ColumnSpan="2" Style="{StaticResource BodyTextBlockStyle}"/>
+
+    </Grid>
+</Page>
