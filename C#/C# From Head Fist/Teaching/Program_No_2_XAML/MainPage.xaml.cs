@@ -29,7 +29,7 @@ namespace Program_No_2_XAML
 
         private void ShowStatement_Button_Click(object sender, RoutedEventArgs e)
         {
-            String name = "Quentin";
+            String name = "Łysy";
             int x = 3;
             x = x * 17;
             double d = Math.PI / 2;
