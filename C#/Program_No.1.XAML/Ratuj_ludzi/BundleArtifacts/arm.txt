@@ -1,2 +1,0 @@
-MainPackage=D:\Programy\Program_No1.XAML\Ratuj_ludzi\bin\ARM\Debug\Ratuj_ludzi_1.0.0.0_ARM_Debug.appx
-SymbolPackage=D:\Programy\Program_No1.XAML\Ratuj_ludzi\AppPackages\Ratuj_ludzi_1.0.0.0_Debug_Test\Ratuj_ludzi_1.0.0.0_ARM_Debug.appxsym
