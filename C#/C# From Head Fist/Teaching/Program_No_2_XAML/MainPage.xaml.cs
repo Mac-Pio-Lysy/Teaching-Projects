@@ -73,25 +73,6 @@ namespace Program_No_2_XAML
                 count = count - 1;
             }
             MyLabel.Text = "Odpowiedź brzmi " + count;
-        }
-
-        private void New_statement()
-        {
-            int count = 0;
-            int wynik = 0;
-            int a = 4;
-            int b = 5;
-
-            for(int i = 0; i<5; i++)
-            {
-                wynik = a + b;
-                count = i++;
-
-                if (count < 5)
-                {
-                    a = a++;
-                }
-            }
-        }
+        }     
     }
 }
