@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1524259580 source:d:\my apps\teaching apps\c\grafy\lista1\zad1\zapis\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1524228506 source:d:\my apps\teaching apps\c\grafy\lista1\zad1\zapis\adjency_matrix.c
+	<stdio.h>
+	<stdlib.h>
+
+1524235297 source:d:\my apps\teaching apps\c\grafy\lista1\zad1\zapis\macicerz.c
+

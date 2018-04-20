@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1524232433 source:d:\my apps\teaching apps\c++\grafy\macierz\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
