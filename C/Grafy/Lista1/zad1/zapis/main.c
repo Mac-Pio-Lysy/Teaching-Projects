@@ -41,12 +41,14 @@ int main()
   ShowMatrix(Matrix,Width,Height);
   showAdGraph(Matrix,w,k);
   showInGraph(Matrix,w,k);
+  showZbiorWierzcholkow(Matrix,w);
+  showZbiorKrawedzi(Matrix,Height);
   return 0;
 }
 
 
 
-long OpenFile(FILE** File)
+long OpenFile(FILE** File)      //Funkcja odpowiadaj¹ca za otwieranie pliku
 {
   char FileName[30]={0};
   long FileLength=0;
@@ -246,6 +248,10 @@ int showAdGraph(int** Matrix, int w, int k)
     }
     return 0;
 }
+int showUndirAdGraph(int** Matrix, int w, int k)
+{
+
+}
 int showInGraph(int** Matrix, int w, int k)
 {
     int i,j,v1,v2;
@@ -283,7 +289,36 @@ int showInGraph(int** Matrix, int w, int k)
     }
     return 0;
 }
+int showZbiorWierzcholkow(int** Matrix, int w)
+{
+    int liczbaW=1;
+    int z=0;
+    int j=0;
+    int i=0;
 
+    printf("\nzbior wierzcholkow: ");
+    for(i=0;i<w;i++)
+    {
+    printf("%d", liczbaW);
+    liczbaW=liczbaW+1;
+    }
+}
+int showZbiorKrawedzi(int** Matrix, int Height)
+{
+    int i=0;
+    int j=0;
+    int z=0;
+    int k1=0;
+    int k2=0;
+
+    printf("\nZbior krawedzi: ");
+    for(i=1;i<Height;i++)
+    {
+        k1=Matrix[0][i];
+        k2=Matrix[1][i];
+        printf("%d",k1,k2);
+    }
+}
 
 
 
