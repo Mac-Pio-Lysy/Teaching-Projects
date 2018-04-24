@@ -48,7 +48,7 @@ int main()
 
 
 
-long OpenFile(FILE** File)      //Funkcja odpowiadaj¹ca za otwieranie pliku
+long OpenFile(FILE** File)      //Funkcja odpowiadajaca za otwieranie pliku
 {
   char FileName[30]={0};
   long FileLength=0;
