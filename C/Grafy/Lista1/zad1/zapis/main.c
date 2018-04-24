@@ -7,7 +7,7 @@ int CreateMatrix(int*** Matrix,int Width,int Height);
 void LoadMatrix(FILE* File,int*** Matrix,int Width,int Height);
 void ShowMatrix(int** Matrix,int Width,int Height);
 
-////test
+
 int main()
 {
   FILE* File=NULL;
