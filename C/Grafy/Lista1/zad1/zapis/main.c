@@ -23,8 +23,6 @@ int main()
 
   GetSize(File,&Width,&Height);
 
-  //w=Width;
-  //k=Height-1;
 
   k=GetW(File, w);
   w=GetK(File, k);
@@ -45,8 +43,6 @@ int main()
   showZbiorKrawedzi(Matrix,Height);
   return 0;
 }
-
-
 
 long OpenFile(FILE** File)      //Funkcja odpowiadajaca za otwieranie pliku
 {
@@ -319,25 +315,3 @@ int showZbiorKrawedzi(int** Matrix, int Height)
         printf("%d",k1,k2);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
