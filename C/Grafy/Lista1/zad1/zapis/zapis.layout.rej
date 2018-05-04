@@ -1,0 +1,14 @@
+diff a/C/Grafy/Lista1/zad1/zapis/zapis.layout b/C/Grafy/Lista1/zad1/zapis/zapis.layout	(rejected hunks)
+@@ -21,6 +21,12 @@
+ 			<Collapse line="255" />
+ 			<Collapse line="292" />
+ 			<Collapse line="306" />
++=======
++			<Cursor1 position="297" topLine="3" />
++		</Cursor>
++		<Folding>
++			<Collapse line="11" />
++>>>>>>> 2c2edb6a10612104364ee02078ee3b2629ed603e
+ 		</Folding>
+ 	</File>
+ </CodeBlocks_layout_file>

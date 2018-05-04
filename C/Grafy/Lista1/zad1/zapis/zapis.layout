@@ -5,6 +5,7 @@
 	<File name="main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<Cursor1 position="1140" topLine="0" />
 		</Cursor>
 		<Folding>
@@ -21,6 +22,12 @@
 			<Collapse line="255" />
 			<Collapse line="292" />
 			<Collapse line="306" />
+=======
+			<Cursor1 position="297" topLine="3" />
+		</Cursor>
+		<Folding>
+			<Collapse line="11" />
+>>>>>>> 2c2edb6a10612104364ee02078ee3b2629ed603e
 =======
 			<Cursor1 position="297" topLine="3" />
 		</Cursor>
