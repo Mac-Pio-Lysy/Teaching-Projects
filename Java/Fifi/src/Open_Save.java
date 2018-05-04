@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.io.PrintWriter;
 
 
 public class Open_Save 
@@ -29,6 +30,20 @@ public class Open_Save
 		{
 			System.out.println("Element tablicy " + i + " to " + tab[i]);
 		}
+		
+		////////////////////////////////////    ZAPIS    ///////////////////////////
+		
+		PrintWriter zapis = new PrintWriter("D:\\My Apps\\Teaching Apps\\Java\\Fifi\\bin\\wykonane.txt");
+		for(i=0; i<15; i++)
+		{
+		zapis.println(tab[i]);
+		}
+		zapis.close();
+		
+	
+	
+	
+	
 	}
 
 }
