@@ -10,13 +10,20 @@ public class Open_Save
 	private static Scanner in;
 	static int zmienna;
 	static int i;
-	static int tab[];
+	static int[] tab;
 	
 	
 	public static void main(String[] args) throws FileNotFoundException 
 	{
 		tab = new int [15];
+
+		odczyt();
+		zapis();
 		
+	
+	}
+	public static void odczyt() throws FileNotFoundException
+	{
 		File file = new File("D:\\My Apps\\Teaching Apps\\Java\\Fifi\\bin\\zad_15.txt");
 		in = new Scanner(file);
 		
@@ -30,20 +37,20 @@ public class Open_Save
 		{
 			System.out.println("Element tablicy " + i + " to " + tab[i]);
 		}
-		
-		////////////////////////////////////    ZAPIS    ///////////////////////////
-		
+	}
+	
+	public static void zapis() throws FileNotFoundException 
+	{
 		PrintWriter zapis = new PrintWriter("D:\\My Apps\\Teaching Apps\\Java\\Fifi\\bin\\wykonane.txt");
 		for(i=0; i<15; i++)
 		{
 		zapis.println(tab[i]);
 		}
-		zapis.close();
-		
-	
-	
-	
-	
+		zapis.close();		
 	}
+
+
+
+	
 
 }
